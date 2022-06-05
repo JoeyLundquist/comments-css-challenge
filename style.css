@@ -1,0 +1,150 @@
+body {
+    background-color: hsl(223, 19%, 93%);
+}
+.comment-read-box, .add-comment {
+    width: 50%;
+    height: 110px;
+    background-color:  white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'rubik', sans-serif;
+}
+
+
+
+.up-or-down-vote {
+    width: 30px;
+    height:90px;
+    background-color: hsl(223, 19%, 93%);
+    border: solid hsl(223, 19%, 93%) 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3px;
+    float: left;
+}
+
+.vote-buttons {
+    background-color: transparent;
+    border: transparent;
+    margin-top: 14px;
+    display: inline-block;
+}
+
+.vote-buttons:hover {
+    color: rgb(75, 74, 139)
+}
+
+.num-of-likes {
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: -6px;
+}
+
+.person {
+    padding: 5px;
+}
+
+.face {
+    margin-left: 50px;
+    width:34px;
+}
+
+.name, .time-since-comment, .reply-button {
+    padding: 14px;
+    vertical-align: 20px;
+}
+
+.text-body {
+    width: 75%;
+    margin: -15px auto;
+}
+
+.reply-button-div {
+    vertical-align: top;
+    float: right;
+}
+
+.reply-button {
+    background-color: transparent;
+    border: transparent;
+    font-weight: 900;
+    color: rgb(75, 74, 139);
+}
+
+.reply-button, .face, .person, .avatar, .img, .avatar, .delete-button {
+    display: inline;
+}
+
+.bottom-two {
+    margin-left: 430px;
+    width: 43.3%
+}
+
+.user-name {
+    color: rgb(75, 74, 139);
+    font-weight: 900;
+}
+
+.name {
+    font-weight: 900;
+}
+
+.reply-button:hover {
+    color:rgb(140, 137, 216);
+    cursor: pointer;
+}
+
+.reply-button:active {
+    color: rgb(140, 137, 216);
+}
+
+.delete-button { 
+    background-color: transparent;
+    border: transparent;
+    font-weight: 900;
+    color: red;
+    vertical-align: -10px;
+}
+
+.delete-button:hover {
+    color: hsl(357, 100%, 86%);
+    cursor: pointer;
+}
+
+
+.text-comment-box {
+    width: 60%;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.comment-face {
+    vertical-align: top;
+}
+
+.send-button {
+    font-family: 'rubik', sans-serif;
+    vertical-align: 52px;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(84, 87, 176);
+    color: white;
+    border-radius: 10px;
+    font-size:medium;
+}
+
+.send-button:hover {
+    background-color: rgb(140, 137, 216);
+}
+
+/* .gray-line {
+    width: 3px;
+    height: 115px;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 400px;
+} */

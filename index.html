@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Interactive comments section</title>
 
@@ -21,10 +22,124 @@
   </style>
 </head>
 <body>
-  
+  <div class="comment-read-box">
+    <div class="up-or-down-vote">
+      <button class="vote-buttons"><img alt="plus" src="./images/icon-plus.svg"></button><br>
+      <p class="num-of-likes">12</p><br>
+      <button class="vote-buttons"><img alt="minus" src="./images/icon-minus.svg"></button>
+    </div>
+    <div class="img">
+      <img class="person face" alt="avatar" src="./images/avatars/image-amyrobson.png">
+    </div>
+    <div class="avatar">
+      <p class="person name">Amyrobson</p>
+      <p class="person time-since-comment">1 month ago</p>
+    </div>
+    <div class="reply-button-div">
+      <button class="reply-button"><img alt="reply" src="./images/icon-reply.svg">   Reply</button>
+    </div>
+    <div class="text-body">
+      <p>
+        Impressive! Though it seems the drag feature could be improved. But overall it
+        looks incredible. You've nailed the design and the responsiveness at various
+        breakpoints works really well.
+      </p>
+    </div>
+  </div>
+
+  <div class="comment-read-box">
+    <div class="up-or-down-vote">
+      <button class="vote-buttons"><img alt="plus" src="./images/icon-plus.svg"></button><br>
+      <p class="num-of-likes">12</p><br>
+      <button class="vote-buttons"><img alt="minus" src="./images/icon-minus.svg"></button>
+    </div>
+    <div class="img">
+      <img class="person face" alt="avatar" src="./images/avatars/image-maxblagun.png">
+    </div>
+    <div class="avatar">
+      <p class="person name">maxblagun</p>
+      <p class="person time-since-comment">2 weeks ago</p>
+    </div>
+    <div class="reply-button-div">
+      <button class="reply-button"><img alt="reply" src="./images/icon-reply.svg">   Reply</button>
+    </div>
+    <div class="text-body">
+      <p>
+        Woah, your project looks awesome! How long have you been coding for? I'm still
+        new, but think I want to dive into React as well soon. Perhaps you can give me an
+        insight on where I can learn React? Thanks!
+      </p>
+    </div>
+  </div>
+
+  <div class="gray-line"></div>
+
+  <div class="comment-read-box bottom-two">
+    <div class="up-or-down-vote">
+      <button class="vote-buttons"><img alt="plus" src="./images/icon-plus.svg"></button><br>
+      <p class="num-of-likes">12</p><br>
+      <button class="vote-buttons"><img alt="minus" src="./images/icon-minus.svg"></button>
+    </div>
+    <div class="img">
+      <img class="person face" alt="avatar" src="./images/avatars/image-ramsesmiron.png">
+    </div>
+    <div class="avatar">
+      <p class="person name">ramsesmiron</p>
+      <p class="person time-since-comment">1 month ago</p>
+    </div>
+    <div class="reply-button-div">
+      <button class="reply-button"><img alt="reply" src="./images/icon-reply.svg">   Reply</button>
+    </div>
+    <div class="text-body">
+      <p>
+        <span class="user-name">@maxblagun</span> If you're still new, I'd recommend focusing on the
+        fundamentals of HTML, CSS, and JS before considering React. It's very
+        tempting to jump ahead but lay a solid foundation first.
+      </p>
+    </div>
+  </div>
+
+  <div class="gray-line"></div>
+
+  <div class="comment-read-box bottom-two">
+    <div class="up-or-down-vote">
+      <button class="vote-buttons"><img alt="plus" src="./images/icon-plus.svg"></button><br>
+      <p class="num-of-likes">12</p><br>
+      <button class="vote-buttons"><img alt="minus" src="./images/icon-minus.svg"></button>
+    </div>
+    <div class="img">
+      <img class="person face" alt="avatar" src="./images/avatars/image-juliusomo.png">
+    </div>
+    <div class="avatar">
+      <p class="person name">juliusomo</p>
+      <p class="person time-since-comment">1 month ago</p>
+    </div>
+    <div class="reply-button-div">
+      <button class="delete-button"><img alt="reply" src="./images/icon-delete.svg">   Delete</button>
+    </div>
+    <div class="reply-button-div">
+      <button class="reply-button"><img alt="reply" src="./images/icon-edit.svg">   Edit</button>
+    </div>
+    <div class="text-body">
+      <p>
+        <span class="user-name">@ramsesmiron</span> I couldn't agree more with this. Everything moves so
+        fast and it always seems like everyone knows the newest library/
+        framework. But the fundamentals are what stay constant.
+      </p>
+    </div>
+  </div>
+
+  <div class="add-comment">
+    <img class="person face comment-face" alt="avatar" src="./images/avatars/image-juliusomo.png">
+    <textarea class="text-comment-box" placeholder="Add a comment..."></textarea>
+    <button class="send-button">SEND</button>
+  </div>
+
+
+ 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Joey</a>.
   </div>
 </body>
 </html>
