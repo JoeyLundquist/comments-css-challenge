@@ -139,6 +139,7 @@ body {
 
 .send-button:hover {
     background-color: rgb(140, 137, 216);
+    cursor: pointer;
 }
 
 /* .gray-line {
